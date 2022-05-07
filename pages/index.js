@@ -4,6 +4,7 @@ import BeautyPortrait from "../components/BeautyPortrait";
 import { Creativity } from "../components/Creativity";
 import { Layout } from "../components/Layout";
 import { LeadingBrand } from "../components/LeadingBrand";
+import { OurCases } from "../components/OurCases";
 import TrustProfessional from "../components/TrustProfessional";
 import { WhatWeDo } from "../components/WhatWeDo";
 import styles from "../styles/Home.module.css";
@@ -24,6 +25,8 @@ export default function Home() {
         <WhatWeDo />
         <LeadingBrand />
         <Creativity />
+        <div style={{ height: "200px" }}></div>
+        <OurCases />
       </Layout>
     </div>
   );

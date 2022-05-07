@@ -30,67 +30,6 @@ const BeautyPortrait = () => {
           </div>
         </div>
       </div>
-      {/* <div
-        style={{
-          border: "1px dashed green",
-          width: "1100px",
-          minHeight: "600px",
-        }}
-      >
-        <div
-          style={{
-            backgroundColor: "palegreen",
-            top: "50px",
-            left: "50px",
-            position: "relative",
-            width: "100px",
-            height: "100px",
-          }}
-        >
-          1
-        </div>
-        <div
-          style={{
-            backgroundColor: "tomato",
-            top: "10px",
-            left: "100px",
-            position: "relative",
-            width: "100px",
-            height: "100px",
-          }}
-        >
-          2
-        </div>
-        <div
-          style={{
-            backgroundColor: "lightblue",
-            top: "-50px",
-            left: "150px",
-            position: "relative",
-            width: "100px",
-            height: "100px",
-          }}
-        >
-          3
-        </div>
-      </div>
-      <div
-
-      >
-        <div
-          className={styles.test}
-          style={{
-            // backgroundColor: "palegreen",
-            top: "50px",
-            left: "50px",
-            position: "relative",
-            width: "100px",
-            height: "100px",
-          }}
-        >
-          1
-        </div>
-      </div> */}
     </>
   );
 };

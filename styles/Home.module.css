@@ -306,3 +306,18 @@ background-image: linear-gradient(to right top, #2155CD, #CE49BF);
   left: 650px;
   z-index: 10;
 }
+.ourCasesContainer{
+  width:  900px;
+  margin: 0 auto;
+}
+/* .ourCasesContainer img:nth-child(1){
+  width: 600px;
+} */
+.image1{
+  height: 300px;
+  width: 100%;
+}
+.image2{
+  height: 300px;
+  width: 300px;
+}
