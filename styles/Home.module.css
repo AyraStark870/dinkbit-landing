@@ -1,0 +1,308 @@
+/* :root {
+  --blue-dark: #2155CD;
+  --blue-light: #1e90ff;
+  --pink: #CE49BF;
+  --white: #ffffff;
+}
+
+.brand {
+  color: var(--blue-dark);
+  color: red;
+} */
+
+.test{
+  background-color: rgb(146, 127, 255);
+  /* z-index: 33; */
+}
+.test:before,
+.test:after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  /* cunado se posiciona absolutamente tiene un comportamiento curioso respecto al elemeto que los origino */
+}
+.test:before {
+  background: tomato;
+  top: -20px;
+   /* z-index: -1; */
+   left: -20px;
+}
+.test:after {
+  background: steelblue;
+  bottom: -15px;
+  /* z-index: -1; */
+}
+
+.magicCo{
+ max-width: 950px;
+  height: 350px;
+  /* background-color: #2155CD; */
+ background-image: linear-gradient(to left bottom, #2155CD,#CE49BF);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px 20px 200px;
+  /* margin-right: 100px; */
+  /* display: inline; */
+  position: absolute;
+  left: 240px;
+  font-size: 1.2rem;
+
+}
+@media (max-width: 600px) {
+  .magicCo {
+    /* display: none; */
+     position: static;
+  }
+}
+ @media (min-width: 1100px) {
+  .magicCo {
+  /* border: 5px solid red; */
+   /* max-width: 800px; */
+  /* min-width: 650px; */
+  /* margin-right: 2000px */
+  }
+}
+@media (max-width: 600px) {
+  .magicCo p {
+    /* display: none; */
+    padding: 20px 10px 20px 20px;
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 980px) {
+  .magicCo p {
+    padding: 20px 10px 20px 10px;
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 770px) {
+  .magicCo p:nth-child(1) {
+    /* display: none; */
+        font-size: 1.2rem;
+  }
+  .magicCo p:nth-child(2) {
+    display: none;
+  }
+
+}
+
+.beautyPortrait {
+  position: "relative";
+  /* right: "50px"; */
+  /* bottom: "-150px"; */
+  position: absolute;
+  top:70px;
+  left: 50px;
+  z-index: 1;
+}
+.beautyPortrait:after,
+.beautyPortrait:before{
+  content: "";
+  display: block;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+}
+.beautyPortrait:after{
+  background-color: #CE49BF;
+  top:-30px;
+  left:-30px;
+  z-index: -1;
+}
+.beautyPortrait:before{
+  background-color: #2155CD;
+  bottom: 15px;
+  right:-30px;
+  z-index: -1;
+}
+.fashionWomanParr span{
+  color: #2155CD;
+}
+.fashionWomanParr{
+  font-weight: 500;
+}
+
+/* TRUST PROFESSIONAL */
+.trustProfContainer{
+ margin-top: 20rem;
+}
+@media (max-width: 600px) {
+.trustProfContainer {
+  margin-top: 0rem;
+}
+}
+.behindTrustProf{
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient(to right top, #2155CD, #CE49BF);
+  position: absolute;
+  /* top: -350px; */
+  left: 150px;
+    z-index: 1;
+    /* box-shadow: 30px -30px 5px #CE49BF; */
+}
+
+@media (max-width: 600px) {
+  .behindTrustProf{
+display: none;
+  }
+
+}
+.trustProfessional{
+  margin-top: 45px;
+  z-index: 3;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+.arrow{
+  background-color: #2155CD;
+  height: 7px;
+  width:70px;
+  margin-top: 35px;
+  margin-right: 20px;
+}
+.trustP{
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+@media (max-width: 600px) {
+  .trustP {
+    margin-left: 0px;
+  }
+
+}
+.contactTrust {
+  display: inline;
+  font-weight: 500;
+    margin-left: 15px;
+    border-bottom: 5px solid #CE49BF;
+      font-size: 15px;
+}
+
+/* WHAT WE DO */
+.whatWeDoContainer{
+  /* margin-top: 10rem; */
+  position: relative;
+  height: 500px;
+    margin-bottom: 10rem;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+@media (max-width: 770px) {
+.whatWeDoContainer {
+  margin-top: 10rem;
+}
+}
+.whatWeDoBehind{
+background-image: linear-gradient(to right top, #2155CD, #CE49BF);
+  width: 550px;
+  height: 500px;
+  margin: 0 auto;
+  /* position: absolute; */
+
+}
+@media (max-width: 770px) {
+  .whatWeDoBehind {
+   /* height: 300px; */
+     display: none;
+  }
+}
+.whatWeDo{
+    width: 1200px;
+    height: 300px;
+      position: absolute;
+      /* /* top: 100px; */
+    left: 50%;
+    top: 50%;
+      transform: translate(-50%, -50%);
+    /* display: flex; */
+}
+@media (max-width: 770px) {
+  .whatWeDo {
+    margin-top: 100px;
+
+    left: 300px;
+    top: 100px;
+  }
+}
+@media (max-width: 570px) {
+  .whatWeDo {
+    margin-top: 100px;
+
+    left: 600px;
+    top: 100px;
+  }
+}
+/* LEADING BRAND */
+.leadingBrandContainer{
+
+}
+@media (max-width: 770px) {
+.leadingBrandContainer {
+  margin-top: 600px;
+}
+
+}
+.shoesImg{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    z-index: 3;
+    top: 100px;
+    left: 180px;
+}
+.behindShoesImg{
+    background-color: #CE49BF;
+    width: 300px;
+    height: 200px;
+    /* margin: 0 auto; */
+    position: relative;
+        top: -300px;
+        left: 80px;
+        z-index: 1;
+}
+.arrowShoes {
+  background-color: #2155CD;
+  height: 7px;
+  width: 70px;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+.contactShoes {
+  display: inline;
+  font-weight: 500;
+  /* margin-left: 55px; */
+  border-bottom: 5px solid #CE49BF;
+  font-size: 15px;
+  text-align: right;
+}
+
+/* CREATIVITY */
+.creativityContainer{
+  position: relative;
+}
+.creativityPink{
+  width: 800px;
+  height: 480px;
+  background-color: #2155CD;
+}
+.creativityVolcan{
+  position: absolute;
+  top:50px;
+  left: 700px;
+  z-index: 3;
+}
+.creativityOffice{
+  position: absolute;
+  top:300px;
+  left: 650px;
+  z-index: 10;
+}
