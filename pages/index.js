@@ -1,10 +1,10 @@
 import Head from "next/head";
 import BeautyPortrait from "../components/BeautyPortrait";
 import { Complex } from "../components/Complex";
-import { Creativity } from "../components/Creativity";
+import { Creativity } from "../components/creativity/Creativity";
 import { Layout } from "../components/Layout";
 import { LeadingBrand } from "../components/LeadingBrand";
-import { OurCases } from "../components/OurCases";
+import { OurCases } from "../components/ourCases/OurCases";
 import { OurParnest } from "../components/ourPartnes/OurParnest";
 import TrustProfessional from "../components/TrustProfessional";
 import { WhatWeDoCopy } from "../components/WhatWeDoCopy";
