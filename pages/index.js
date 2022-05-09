@@ -36,7 +36,6 @@ export default function Home() {
 
         <Complex />
         <div style={{ height: "650px" }}></div>
-        {/* <Map /> */}
       </Layout>
     </div>
   );
