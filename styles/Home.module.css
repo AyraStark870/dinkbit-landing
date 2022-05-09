@@ -147,13 +147,10 @@
 
 /* WHAT WE DO */
 .whatWeDoContainer{
-  /* margin-top: 10rem; */
   position: relative;
   height: 500px;
     margin-bottom: 10rem;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
+
 }
 @media (max-width: 770px) {
 .whatWeDoContainer {
@@ -469,77 +466,4 @@ background-image: linear-gradient(to right top, #2155CD, #CE49BF);
   margin-right: 270px;
 }
 
-/* OUR PATNER */
-.ourPartnerContainer{
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0 1rem;
-}
-.partnerContainer{
-  display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 250px;
-    /* padding: 5rem; */
-    gap: 7px;
-    max-width: 900px;
-    margin: 0 auto;
-    z-index: 10;
-}
-@media (max-width:500px) {
-  .partnerContainer {
-    display: flex;
-    flex-direction: column;
-  }
-}
-.partnerContainer div{
-  width: 300px;
-  height: 300px;
-  color: #fff;
-  padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  text-align: center;
-}
 
-@media (max-width:1000px) {
-  .partnerContainer div {
-    width: 200px;
-    height: 200px;
-  }
-}
-@media (max-width:800px) {
-  .partnerContainer div {
-    width: 150px;
-    height: 150px;
-  }
-}
-@media (max-width:800px) {
-  .partnerContainer div {
-    width: 150px;
-    height: 150px;
-  }
-}
-@media (max-width:500px) {
-  .partnerContainer div {
-    width: 300px;
-    height: 300px;
-
-  }
-}
-.partnerContainer div:nth-child(1){
-background-color: #2155CD;
-}
-.partnerContainer div:nth-child(2){
-background-color: #1e90ff;
-}
-.partnerContainer div:nth-child(3){
-background-color: #CE49BF;
-}
-.patnerItem i{
-  font-size: 40px;
-}

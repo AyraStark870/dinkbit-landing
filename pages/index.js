@@ -5,10 +5,9 @@ import { Creativity } from "../components/Creativity";
 import { Layout } from "../components/Layout";
 import { LeadingBrand } from "../components/LeadingBrand";
 import { OurCases } from "../components/OurCases";
-import { OurParnest } from "../components/OurParnest";
+import { OurParnest } from "../components/ourPartnes/OurParnest";
 import TrustProfessional from "../components/TrustProfessional";
 import { WhatWeDoCopy } from "../components/WhatWeDoCopy";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (

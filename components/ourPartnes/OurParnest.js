@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/Home.module.css";
+import styles from "./OurPatners.module.css";
 import { AiOutlineApple } from "react-icons/ai";
 import { SiNike } from "react-icons/si";
 import { RiPlaystationFill } from "react-icons/ri";
@@ -12,7 +12,7 @@ export const OurParnest = () => {
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus,
         reiciendis autem. Volupt
       </p>
-      <div className={styles.partnerContainer}>
+      <div className={styles.partnerItemsContainer}>
         <div className={styles.patnerItem}>
           <i>
             <AiOutlineApple></AiOutlineApple>
