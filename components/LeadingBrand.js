@@ -7,13 +7,13 @@ export const LeadingBrand = () => {
     <div className={styles.leadingBrandContainer}>
       <div className="container mx-5 ">
         <div className="row px-5">
-          <div className="col-md-5">
+          <div className="col-5">
             <div className={styles.shoesImg}>
-              <Image src={"/shoes.jpg"} alt="shoes" width={300} height={200} />
+              <img src={"/shoes.jpg"} alt="shoes" />
             </div>
             <div className={styles.behindShoesImg}></div>
           </div>
-          <div className="col-md-7 px-5 ">
+          <div className="col-7 px-5 ">
             <div className="d-flex ">
               <h2 className="h1">Leading Brand in a digital word</h2>
               <div className={styles.arrowShoes}></div>

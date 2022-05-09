@@ -19,7 +19,7 @@ const Socials = styled.div`
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer ">
       <div className="containerFooter">
         <ItemsFooter>
           <div>

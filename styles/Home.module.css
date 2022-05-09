@@ -178,11 +178,9 @@ background-image: linear-gradient(to right top, #2155CD, #CE49BF);
     width: 1200px;
     height: 300px;
       position: absolute;
-      /* /* top: 100px; */
     left: 50%;
     top: 50%;
       transform: translate(-50%, -50%);
-    /* display: flex; */
 }
 @media (max-width: 770px) {
   .whatWeDo {
@@ -195,21 +193,21 @@ background-image: linear-gradient(to right top, #2155CD, #CE49BF);
 @media (max-width: 570px) {
   .whatWeDo {
     margin-top: 100px;
-
     left: 600px;
     top: 100px;
   }
 }
 /* LEADING BRAND */
 .leadingBrandContainer{
+   min-width: 900px;
+   margin-left: 2rem;
+}
+@media(max-width:800px) {
+  .leadingBrandContainer {
+      margin-left: 6rem;
+  }
+}
 
-}
-@media (max-width: 770px) {
-.leadingBrandContainer {
-  margin-top: 600px;
-}
-
-}
 .shoesImg{
     width: 500px;
     height: 300px;

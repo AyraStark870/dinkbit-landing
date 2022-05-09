@@ -7,7 +7,7 @@ import { LeadingBrand } from "../components/LeadingBrand";
 import { OurCases } from "../components/OurCases";
 import { OurParnest } from "../components/OurParnest";
 import TrustProfessional from "../components/TrustProfessional";
-import { WhatWeDo } from "../components/WhatWeDo";
+import { WhatWeDoCopy } from "../components/WhatWeDoCopy";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -23,7 +23,8 @@ export default function Home() {
         <div style={{ height: "350px" }}></div>
         <TrustProfessional />
         <div style={{ height: "450px" }}></div>
-        <WhatWeDo />
+        <WhatWeDoCopy />
+        <div style={{ height: "150px" }}></div>
         <LeadingBrand />
         <Creativity />
         <div style={{ height: "200px" }}></div>
