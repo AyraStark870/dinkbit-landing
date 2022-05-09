@@ -1,10 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
 import BeautyPortrait from "../components/BeautyPortrait";
+import { Complex } from "../components/Complex";
 import { Creativity } from "../components/Creativity";
 import { Layout } from "../components/Layout";
 import { LeadingBrand } from "../components/LeadingBrand";
+import Map from "../components/Map";
 import { OurCases } from "../components/OurCases";
+import { OurParnest } from "../components/OurParnest";
 import TrustProfessional from "../components/TrustProfessional";
 import { WhatWeDo } from "../components/WhatWeDo";
 import styles from "../styles/Home.module.css";
@@ -27,6 +30,13 @@ export default function Home() {
         <Creativity />
         <div style={{ height: "200px" }}></div>
         <OurCases />
+        <div style={{ height: "150px" }}></div>
+        <OurParnest />
+        <div style={{ height: "150px" }}></div>
+
+        <Complex />
+        <div style={{ height: "650px" }}></div>
+        {/* <Map /> */}
       </Layout>
     </div>
   );

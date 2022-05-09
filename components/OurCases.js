@@ -1,31 +1,54 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
-import Image from "next/image";
 
 export const OurCases = () => {
   return (
     <div className={styles.ourCasesContainer}>
-      <div className="container">
-        <div className="row g-0">
-          <div className="col-9 ">
-            <img className={styles.image1} src="classes1.jpg" alt="classes1" />
-          </div>
-          <div className="col-3">
-            <img className={styles.image2} src="classes2.jpg" alt="classes1" />
-          </div>
+      <h2>Our Cases</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus,
+        reiciendis autem. Voluptas atque et voluptatum dignissimos, quo porro,
+        laborum ducimus distinctio iste aperiam doloribus, est sed omnis eos
+        nobis blanditiis.
+      </p>
+      <div className={styles.galeryContainer}>
+        <div className={styles.galeryItem}>
+          <img
+            className={styles.galeryImage}
+            src="/classes1.jpg"
+            alt="images 1"
+          />
         </div>
-        <div className="row g-0">
-          <div className="col-4 ">
-            <img className={styles.image3} src="classes3.jpg" alt="classes1" />
-          </div>
-          <div className="col-4">
-            <img className={styles.image4} src="classes2.jpg" alt="classes1" />
-          </div>
-          <div className="col-4">
-            <img className={styles.image5} src="classes3.jpg" alt="classes1" />
-          </div>
+        <div className={styles.galeryItem}>
+          <img
+            className={styles.galeryImage}
+            src="/classes2.jpg"
+            alt="images 1"
+          />
+        </div>
+        <div className={styles.galeryItem}>
+          <img
+            className={styles.galeryImage}
+            src="/classes3.jpg"
+            alt="images 1"
+          />
+        </div>
+        <div className={styles.galeryItem}>
+          <img
+            className={styles.galeryImage}
+            src="/descarga1.jpg"
+            alt="images 1"
+          />
+        </div>
+        <div className={styles.galeryItem}>
+          <img
+            className={styles.galeryImage}
+            src="/descarga2.jpg"
+            alt="images 1"
+          />
         </div>
       </div>
+      <div className={styles.ourCasesBehind}></div>
     </div>
   );
 };

@@ -6,7 +6,10 @@ export const NavBar = () => {
     <nav className="navbar navbar-expand-lg navbar-light px-5 mx-5">
       <div className=" container-md mx-5">
         <Link href="/">
-          <a className="navbar-brand text-uppercase h1 font-weight-bold brand">
+          <a
+            style={{ color: "#2155CD" }}
+            className="navbar-brand text-uppercase h1 font-weight-bold brand"
+          >
             design studio
           </a>
         </Link>
