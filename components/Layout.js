@@ -3,7 +3,7 @@ import { NavBar } from "./NavBar";
 import Head from "next/head";
 import Footer from "./footer/Footer";
 import { Map } from "./Map";
-import Contactanos, { ContactUs } from "./ContactUs";
+import { ContactUs } from "./ContactUs";
 
 export const Layout = ({ children }) => {
   return (
@@ -17,6 +17,7 @@ export const Layout = ({ children }) => {
         ></link>
       </Head>
       <NavBar />
+      {/* <div className="container ">{children}</div> */}
       <div className="container ">{children}</div>
       <ContactUs />
       <Map />

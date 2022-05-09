@@ -1,44 +1,7 @@
-/* :root {
-  --blue-dark: #2155CD;
-  --blue-light: #1e90ff;
-  --pink: #CE49BF;
-  --white: #ffffff;
-}
-
-.brand {
-  color: var(--blue-dark);
-  color: red;
-} */
-
-.test{
-  background-color: rgb(146, 127, 255);
-  /* z-index: 33; */
-}
-.test:before,
-.test:after {
-  content: "";
-  display: block;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  /* cunado se posiciona absolutamente tiene un comportamiento curioso respecto al elemeto que los origino */
-}
-.test:before {
-  background: tomato;
-  top: -20px;
-   /* z-index: -1; */
-   left: -20px;
-}
-.test:after {
-  background: steelblue;
-  bottom: -15px;
-  /* z-index: -1; */
-}
 
 .magicCo{
  max-width: 950px;
   height: 350px;
-  /* background-color: #2155CD; */
  background-image: linear-gradient(to left bottom, #2155CD,#CE49BF);
   color: #fff;
   display: flex;
@@ -55,7 +18,7 @@
 @media (max-width: 600px) {
   .magicCo {
     /* display: none; */
-     position: static;
+     /* position: static; */
   }
 }
  @media (min-width: 1100px) {
@@ -69,13 +32,13 @@
 @media (max-width: 600px) {
   .magicCo p {
     /* display: none; */
-    padding: 20px 10px 20px 20px;
+    /* padding: 20px 10px 20px 20px; */
     font-size: 1.5rem;
   }
 }
 @media (max-width: 980px) {
   .magicCo p {
-    padding: 20px 10px 20px 10px;
+    /* padding: 20px 10px 20px 10px; */
     font-size: 1.1rem;
   }
 }
@@ -85,7 +48,7 @@
         font-size: 1.2rem;
   }
   .magicCo p:nth-child(2) {
-    display: none;
+  font-size: 0.8rem;
   }
 
 }

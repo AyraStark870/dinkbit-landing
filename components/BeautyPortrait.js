@@ -5,7 +5,7 @@ import Image from "next/image";
 const BeautyPortrait = () => {
   return (
     <>
-      <div style={{ position: "relative" }} className="d-flex my-5 ">
+      <div className="d-flex my-5 containerBeauty">
         <div className={styles.beautyPortrait}>
           <Image
             src="/beautyPortrait.jpg"

@@ -4,7 +4,7 @@ import Link from "next/link";
 export const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light px-5 mx-5">
-      <div className=" container-md mx-5">
+      <div className=" container mx-5">
         <Link href="/">
           <a
             style={{ color: "#2155CD" }}
