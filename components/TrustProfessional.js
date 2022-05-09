@@ -6,7 +6,7 @@ const TrustProfessional = () => {
     <div className={styles.trustProfContainer}>
       <div className="container ">
         <div className="row px-5">
-          <div className="col-md-5 px-5 ">
+          <div className="col-md-7 trustProfLeft">
             <div className="d-flex ">
               <div className={styles.arrow}></div>
               <h2 className="h1">Trust the professionals</h2>
@@ -19,17 +19,18 @@ const TrustProfessional = () => {
             </p>
             <p className={styles.contactTrust}>contact us</p>
           </div>
-          <div style={{ position: "relative" }} className="col-md-7 ">
-            <div className={styles.trustProfessional}>
-              <Image
-                src={"/trustProfessional.jpg"}
-                alt="trust professional"
-                width={300}
-                height={300}
-              />
-            </div>
-            <div className={styles.behindTrustProf}></div>
+          {/* <div className="col-md-5 col-sm-12 trustProfessionalTop"> */}
+          {/* <div style={{ position: "relative" }} className="col-md-7 "> */}
+          <div className={styles.trustProfessional}>
+            <Image
+              src={"/trustProfessional.jpg"}
+              alt="trust professional"
+              width={400}
+              height={400}
+            />
           </div>
+          <div className={styles.behindTrustProf}></div>
+          {/* </div> */}
         </div>
       </div>
     </div>

@@ -36,9 +36,18 @@
 
 /* BEAUTY */
 .containerBeauty{
-  border: 1px solid red;
-  height: 800px;
+  /* height: 800px; */
   width: 1000px;
   position: relative;
-  margin: 0 auto;
+}
+@media (max-width:550px){
+  .containerBeauty{
+    margin-left: 100px;
+  }
+}
+/* TRUST */
+.trustProfLeft{
+  position: absolute;
+  left: 110px;
+  height: 200px;
 }

@@ -1,11 +1,9 @@
 import Head from "next/head";
-import Image from "next/image";
 import BeautyPortrait from "../components/BeautyPortrait";
 import { Complex } from "../components/Complex";
 import { Creativity } from "../components/Creativity";
 import { Layout } from "../components/Layout";
 import { LeadingBrand } from "../components/LeadingBrand";
-import Map from "../components/Map";
 import { OurCases } from "../components/OurCases";
 import { OurParnest } from "../components/OurParnest";
 import TrustProfessional from "../components/TrustProfessional";
@@ -22,9 +20,9 @@ export default function Home() {
       </Head>
       <Layout>
         <BeautyPortrait />
-        <div style={{ height: "250px" }}></div>
+        <div style={{ height: "350px" }}></div>
         <TrustProfessional />
-        <div style={{ height: "200px" }}></div>
+        <div style={{ height: "450px" }}></div>
         <WhatWeDo />
         <LeadingBrand />
         <Creativity />

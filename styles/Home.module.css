@@ -1,19 +1,16 @@
 
 .magicCo{
- max-width: 950px;
+ max-width: 1000px;
   height: 350px;
  background-image: linear-gradient(to left bottom, #2155CD,#CE49BF);
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px 10px 20px 200px;
-  /* margin-right: 100px; */
-  /* display: inline; */
+  padding: 20px 10px 20px 240px;
   position: absolute;
   left: 240px;
   font-size: 1.2rem;
-
 }
 @media (max-width: 600px) {
   .magicCo {
@@ -91,35 +88,35 @@
 /* TRUST PROFESSIONAL */
 .trustProfContainer{
  margin-top: 20rem;
+ position: relative;
+ padding-left: 4rem;
 }
-@media (max-width: 600px) {
-.trustProfContainer {
-  margin-top: 0rem;
-}
-}
+
 .behindTrustProf{
   width: 300px;
   height: 300px;
   background-image: linear-gradient(to right top, #2155CD, #CE49BF);
   position: absolute;
   /* top: -350px; */
-  left: 150px;
+  left: 700px;
+  top: 0;
     z-index: 1;
     /* box-shadow: 30px -30px 5px #CE49BF; */
 }
 
 @media (max-width: 600px) {
   .behindTrustProf{
-     display: none;
+     /* display: none; */
   }
 
 }
 .trustProfessional{
-  margin-top: 45px;
   z-index: 3;
     position: absolute;
     width: 300px;
     height: 300px;
+    left: 620px;
+    top: 40px;
 }
 .arrow{
   background-color: #2155CD;
@@ -136,7 +133,7 @@
 }
 @media (max-width: 600px) {
   .trustP {
-    margin-left: 0px;
+    margin-left: 10px;
   }
 
 }

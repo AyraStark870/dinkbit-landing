@@ -4,15 +4,15 @@ import Image from "next/image";
 
 const BeautyPortrait = () => {
   return (
-    <>
+    <div className="containerTopBeauty">
       <div className="d-flex my-5 containerBeauty">
         <div className={styles.beautyPortrait}>
           <Image
             src="/beautyPortrait.jpg"
             alt="beauty portrait young woman"
             // className="img-fluid"
-            width={380}
-            height={380}
+            width={420}
+            height={420}
           />
           <p className={styles.fashionWomanParr}>
             BeautyPortrait of young{" "}
@@ -30,7 +30,7 @@ const BeautyPortrait = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 export default BeautyPortrait;
