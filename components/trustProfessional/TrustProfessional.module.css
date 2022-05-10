@@ -1,0 +1,63 @@
+.trustProfContainer {
+  margin-top: 20rem;
+  position: relative;
+  padding-left: 4rem;
+}
+
+.behindTrustProf {
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient(to right top, #2155CD, #CE49BF);
+  position: absolute;
+  /* top: -350px; */
+  left: 700px;
+  top: 0;
+  z-index: 1;
+  /* box-shadow: 30px -30px 5px #CE49BF; */
+}
+
+@media (max-width: 600px) {
+  .behindTrustProf {
+    /* display: none; */
+  }
+
+}
+
+.trustProfessional {
+  z-index: 3;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 620px;
+  top: 40px;
+}
+
+.arrow {
+  background-color: #2155CD;
+  height: 7px;
+  width: 70px;
+  margin-top: 35px;
+  margin-right: 20px;
+}
+
+.trustP {
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+@media (max-width: 600px) {
+  .trustP {
+    margin-left: 10px;
+  }
+
+}
+
+.contactTrust {
+  display: inline;
+  font-weight: 500;
+  margin-left: 15px;
+  border-bottom: 5px solid #CE49BF;
+  font-size: 15px;
+}

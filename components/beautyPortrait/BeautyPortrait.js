@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/Home.module.css";
+import styles from "./BeautyPortrait.module.css";
 import Image from "next/image";
 
 const BeautyPortrait = () => {
@@ -25,7 +25,7 @@ const BeautyPortrait = () => {
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit
               incidunt rem blanditiis sed magnam suscipit praesentium, ab ad
-              officia eum p
+              officia eum p!!!
             </p>
           </div>
         </div>

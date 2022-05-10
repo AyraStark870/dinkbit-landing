@@ -3,7 +3,7 @@ import { NavBar } from "./NavBar";
 import Head from "next/head";
 import Footer from "./footer/Footer";
 import { Map } from "./Map";
-import { ContactUs } from "./ContactUs";
+import { ContactUs } from "./contactUs/ContactUs";
 
 export const Layout = ({ children }) => {
   return (

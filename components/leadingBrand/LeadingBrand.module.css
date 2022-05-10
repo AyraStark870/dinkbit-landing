@@ -1,0 +1,47 @@
+.leadingBrandContainer {
+  min-width: 900px;
+  margin-left: 2rem;
+}
+
+@media(max-width:800px) {
+  .leadingBrandContainer {
+    margin-left: 6rem;
+  }
+}
+
+.shoesImg {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  z-index: 3;
+  top: 100px;
+  left: 180px;
+}
+
+.behindShoesImg {
+  background-color: #CE49BF;
+  width: 300px;
+  height: 200px;
+  /* margin: 0 auto; */
+  position: relative;
+  top: -300px;
+  left: 80px;
+  z-index: 1;
+}
+
+.arrowShoes {
+  background-color: #2155CD;
+  height: 7px;
+  width: 70px;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+.contactShoes {
+  display: inline;
+  font-weight: 500;
+  /* margin-left: 55px; */
+  border-bottom: 5px solid #CE49BF;
+  font-size: 15px;
+  text-align: right;
+}

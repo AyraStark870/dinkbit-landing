@@ -1,0 +1,95 @@
+.magicCo {
+  width: 1200px;
+  height: 350px;
+  background-image: linear-gradient(to left bottom, #2155CD, #CE49BF);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px 20px 240px;
+  position: absolute;
+  left: 240px;
+  font-size: 1.2rem;
+}
+
+/* @media (max-width: 1000px) {
+  .magicCo {
+   max-width: 800px;
+  }
+} */
+
+@media (min-width: 1000px) {
+  .magicCo {
+    max-width: 900px;
+  }
+}
+@media (max-width: 600px) {
+  .magicCo {
+    width: 700px;
+  }
+}
+
+@media (max-width: 600px) {
+  .magicCo p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 980px) {
+  .magicCo p {
+    /* padding: 20px 10px 20px 10px; */
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .magicCo p:nth-child(1) {
+    /* display: none; */
+    font-size: 1.2rem;
+  }
+
+  .magicCo p:nth-child(2) {
+    font-size: 0.8rem;
+  }
+
+}
+
+.beautyPortrait {
+  /* right: "50px"; */
+  /* bottom: "-150px"; */
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  z-index: 1;
+}
+
+.beautyPortrait::after,
+.beautyPortrait::before {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+}
+
+.beautyPortrait:after {
+  background-color: #CE49BF;
+  top: -30px;
+  left: -30px;
+  z-index: -1;
+}
+
+.beautyPortrait:before {
+  background-color: #2155CD;
+  bottom: 15px;
+  right: -30px;
+  z-index: -1;
+}
+
+.fashionWomanParr span {
+  color: #2155CD;
+}
+
+.fashionWomanParr {
+  font-weight: 500;
+}
